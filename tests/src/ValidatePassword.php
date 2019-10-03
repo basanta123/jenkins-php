@@ -9,6 +9,6 @@ class ValidatePassword {
 
         $passLength = strlen($password);
 
-        return $passLength >=$this->min_length  && $passLength <=$this->max_length
+        return $passLength >=$this->min_length  && $passLength <=$this->max_length;
     }
 }
