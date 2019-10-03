@@ -7,7 +7,7 @@ class ValidatePasswordTest extends \PHPUnit\Framework\TestCase {
         $valPass = new ValidatePassword();
         
         /* length validation */
-        
+        /* Test*/
         $this->assertFalse($valPass->validLength('1234'));
     }
 }
