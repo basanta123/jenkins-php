@@ -3,7 +3,7 @@
 class ValidatePassword {
 
     public $min_length = 2;
-    public $max_length = 6;
+    public $max_length = 3;
 
     public function validLength($password) {
 
