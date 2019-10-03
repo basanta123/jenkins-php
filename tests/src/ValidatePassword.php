@@ -2,13 +2,13 @@
 
 class ValidatePassword {
 
-    const MIN_LENGTH = 2;
-    const MAX_LENGTH = 4;
+    public $min_length = 2;
+    public $max_length = 3;
 
     public function validLength($password) {
 
         $passLength = strlen($password);
 
-        return $passLength >=self::MIN_LENGTH  && $passLength <=MAX_LENGTH;
+        return $passLength >=$this->min_length  && $passLength <=$this->max_length
     }
 }
