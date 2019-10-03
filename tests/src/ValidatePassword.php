@@ -2,8 +2,8 @@
 
 class ValidatePassword {
 
-    const MIN_LENGTH = 6;
-    const MAX_LENGTH = 20;
+    const MIN_LENGTH = 2;
+    const MAX_LENGTH = 4;
 
     public function validLength($password) {
 
